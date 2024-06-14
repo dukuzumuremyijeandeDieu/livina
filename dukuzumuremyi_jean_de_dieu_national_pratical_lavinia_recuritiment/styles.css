@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #f4f5f7;
+}
+/* container insert*/
+.container_insert{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.container_insert form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+.container_insert form h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.container_insert form input{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #f4f5f7;
+    color: #000;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+.container_insert form input:focus{
+    border: 2px solid #0866ff;
+    border-color:2px solid #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
+.container_insert form button{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: #0866ff;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.5 ease-in-out;
+    color: #fff;
+}
+.container_insert form button:hover,
+.container_insert form button:focus{
+    cursor: pointer;
+    background: #1877f2;
+}
+.container_insert form p{
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container_insert form p a{
+    color: #0866ff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container_insert form select{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #f4f5f7;
+    color: #000;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+/* conatiner insert big*/
+.container_insert_big{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.container_insert_big form{
+    
+    position: absolute;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /* flex-direction: column; */
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+.container_insert_big form .heading{
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+}
+.container_insert_big form .heading h2{
+    font-size: 25px;
+    text-align: center;
+}
+.container_insert_big form .row{
+    margin-top: 30px;
+}
+.container_insert_big form .row input{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #f4f5f7;
+    color: #000;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+.container_insert_big form .row input:focus{
+    border: 2px solid #0866ff;
+    border-color:2px solid #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
+.container_insert_big form .row label{
+    font-size: 20px;
+    color: #000;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+.container_insert_big form button{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: #0866ff;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.5 ease-in-out;
+    color: #fff;
+}
+.container_insert_big form button:hover,
+.container_insert_big button:focus{
+    cursor: pointer;
+    background: #1877f2;
+}
+.container_insert_big form p{
+    margin-top: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container_insert_big form p a{
+    color: #0866ff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container_insert_big form select{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #f4f5f7;
+    color: #000;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+/* message*/
+.good-message{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    border: 2px solid #c3e6cb;
+    border-radius: 10px;
+    text-align: center;
+}
+.good-message-big{
+    position: absolute;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 10px;
+    border: 2px solid #c3e6cb;
+    border-radius: 10px;
+    text-align: center;
+}
+.bad-message{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    border: 2px solid #f5c6cb;
+    border-radius: 10px;
+    text-align: center;
+}
+/* header*/
+header{
+    width: 100%;
+    height: 50px;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    position: fixed;
+    box-shadow: 0 0 0 .2px #d8d0d0,
+    0 0 0 .25px #ccc0c0;
+    z-index: 100;
+}
+header h2 span{
+    font-weight: 600;
+    font-size: 25px;
+    color: #0866ff;
+}
+/* sidebar */
+.sidebar{
+    position: fixed;
+    margin-top: 50px;
+    position: fixed;
+    width: 260px;
+    background-color: #fff;
+    height: 100%;
+}
+.sidebar ul{
+    display: inline-block;
+    margin-top: 20px;
+}
+.sidebar ul li{
+    list-style: none;
+    padding: 10px 16px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+.sidebar ul li .logout{
+    bottom: 9%;
+    position: absolute;
+}
+.sidebar ul li a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0866ff;
+}
+/*conatiner table*/
+.container_tabel{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    position: absolute;
+    background: #fff;
+    margin-left: 300px;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    border-radius: 10px;
+}
+.container_tabel h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+.container_tabel table{
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    margin-top: 20px;
+}
+.container_tabel table th{
+    padding: 10px;
+    font-size: 20px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background: #fff;
+    border-bottom: 1px solid #e3e3e3;
+}
+.container_tabel table tr,td{
+    padding: 10px;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e3e3e3;
+}
+.container_tabel table tr:nth-child(even){
+    background: #f4f5f7;
+}
+.container_tabel button .good-btn{
+    padding: 20px;
+    background: #155724;
+    color: #155701;
+}
+/* conatiner delete */
+
+.container_delete{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.container_delete form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+.container_delete form h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.container_delete form input{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #f4f5f7;
+    color: #000;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 6px;
+    outline: none;
+}
+.container_delete form input:focus{
+    border: 2px solid #0866ff;
+    border-color:2px solid #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+}
+.container_delete form button{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: #0866ff;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.5 ease-in-out;
+    color: #fff;
+}
+.container_delete form button:hover,
+.container_delete form button:focus{
+    cursor: pointer;
+    background: #1877f2;
+}
